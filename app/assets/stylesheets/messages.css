@@ -19,13 +19,13 @@
   align-items: center;
 }
 
-.sidebar-header-name a{
+.header-name a{
   font-size: 16px;
   color: #fafafa;
   text-decoration: none;
 }
 
-.sidebar-header-new a{
+.create-room a{
   font-size: 10px;
   color: deepskyblue;
   border: 1px solid lightblue;
@@ -33,18 +33,18 @@
   text-decoration: none;
 }
 
-.sidebar-body {
+.rooms {
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
   overflow: scroll;
 }
 
-.sidebar-rooms {
+.room {
   padding: 20px 0 40px;
 }
 
-.sidebar-roomname a{
+.room-name a{
   color: white;
   text-decoration: none;
 }
@@ -65,50 +65,56 @@
 
 }
 
-.chat-header-title {
-  font-size: 24px;
+.header-title {
   color: #333;
+  font-size: 24px;
   margin-top: 36px;
 }
 
-.chat-header-endchat {
+.header-button {
   margin-top: 40px;
 }
 
-.chat-header-endchat a{
-  border: 1px solid darkred;
-  padding: 20px;
-  color: darkred;
+.header-button a {
   text-decoration: none;
+  border: 1px solid darkred;
+  color: darkred;
+  padding: 20px;
 }
 
-.chat-body {
-  height: calc(100vh - 190px);
-  background-color: #fafafa;
+.messages {
+  background-color: #FAFAFA;
+  height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
   overflow: scroll;
 }
 
-.chat-body-title {
+.message {
+  margin: 10px 0 0 0;
+}
+
+.upper-message{
   display: flex;
-  margin-top: 10px;
 }
 
-.chat-title-name {
+.message-user {
+  color: #434a54;
   font-size: 16px;
-  color: #434a54;
-  margin-right: 10px;
 }
 
-.chat-title-date {
-  font-size: 12px;
+.message-date {
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
 }
 
-.chat-body-message {
-  font-size: 14px;
-  color: #434a54;
+.lower-message {
   margin-top: 10px;
+}
+
+.message-content {
+  color: #434a54;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 
