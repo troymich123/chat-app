@@ -112,7 +112,9 @@
   margin-bottom: 40px;
 }
 
-.chat-bottom {
+/* メッセージ投稿 */
+
+.form {
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
@@ -156,4 +158,3 @@
   display: none;
 }
 
-/* メッセージ投稿 */
